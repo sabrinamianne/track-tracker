@@ -17,31 +17,47 @@
         <div class="col-md-12">
 
           <form id="track">
-            <label for="question1">How old are you?</label>
-            <input id="question1" type="number"><br>
-            <label for="question2">Problem solving Question </label>
-            <input id="question2" type="number"><br>
-            <label for="question3">Language question</label>
-            <input id="question3" type="text"><br>
-            <label for="question4">Question about Front-end and Back-end</label>
-            <select id="question4"><br>
-              <option value="prop1">proposition1"</option>
-              <option value="prop2">proposition2"</option>
+            <label for="namequestion">What is your name?</label>
+            <input id="namequestion" type="text"><br>
+            <label for="agequestion">How old are you?</label>
+            <input id="agequestion" type="number"><br>
+            <label for="question1"> Do you want or considering to work at Microsoft? </label>
+            <select id="question1"><br>
+              <option value="yes"> Yes </option>
+              <option value="no"> No </option>
+              <option value="whynot"> I don't know yet, why not ! </option>
             </select><br>
-            <label for="question5">According to the following proposals, what is your favorite subject?</label>
+            <label for="question2"> What is your goal for learning to code ? </label>
+            <select id="question2"><br>
+              <option value="ans1"> Try something new, I want to switch my career.  </option>
+              <option value="ans2"> Just for my own knowledge. </option>
+            </select><br>
+            <label for="question3">Do you want to focus on UX (User Experience) or Data (Back End)</label>
+            <select id="question3"><br>
+              <option value="ux"> User Experience </option>
+              <option value="data"> Data</option>
+            </select><br>
+            <label for="question4"> Do you see yourself as web developer or software developer? </label>
+            <select id="question4">
+              <option value="webD">Web Developer</option>
+              <option value="softwareD">Software Developer</option>
+            </select><br>
+            <label for="question5"> Do you want to work for mobile environment or desktop environment? </label>
             <select id="question5">
-              <option value="maths">Maths</option>
-              <option value="english">English</option>
-              <option value="english">Drawing</option>
-              <option value="english">Spanich</option>
+              <option value="mob"> Mobile Environment</option>
+              <option value="desktop">Desktop Environment</option>
             </select><br>
-            <label for="question2"> When can you start the Bootcamp ? </label>
-            <input id="question2" type="date"><br>
+            <label for="datequestion"> When can you start the Bootcamp ? </label>
+            <input id="datequestion" type="date"><br>
             <label for="email"> If you need more information about our tracks, let us your email.</label>
             <input id="email" type="email"><br>
 
             <button type="submit" class="btn btn-info"> Submit. </button>
           </form>
+          <div id="result">
+            <p> <span id="user_name"></span> , considering your answers, you should choose this track
+            <span id="track_result"></span> .</p>
+          </div>
 
         </div>
       </div>
