@@ -17,4 +17,15 @@
 
 #result {
   display: none;
+  margin-top: 200px;
+}
+
+#user_name {
+  color: #216596;
+  font-weight: bold;
+}
+
+#track_result{
+  color: #930d50;
+  font-weight: bold;
 }
