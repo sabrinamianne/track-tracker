@@ -15,9 +15,6 @@ _Track Suggester Review at Epicodus _
 *_This project is using Github pages_
 *_Link of my project https://sabrinamianne.github.io/track-tracker/
 
-
-
-
 ## Known Bugs
 
 _ No bugs related_
