@@ -21,11 +21,53 @@
 }
 
 #user_name {
-  color: #216596;
+  color: #ba77aa;
   font-weight: bold;
+  font-size: 55px;
 }
 
 #track_result{
-  color: #930d50;
+  color: #ba77aa;
   font-weight: bold;
+}
+
+#css {
+  display: none;
+
+}
+
+#links a{
+  margin-top: 200px;
+  font-size: 25px;
+  font-family: Arial;
+  color: lightblue;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+#links a:hover {
+  color: pink ;
+  text-decoration: underline;
+}
+
+#links h3{
+  margin-top: 150px;
+  font-size: 27px;
+  font-family: Arial;
+}
+
+.boxmodel-2 {
+  font-size: 80px;
+  text-align: center;
+  background-color: lightblue;
+  font-family: Arial,inherit;
+}
+.boxmodel-2 a {
+  font-size: 20px;
+  font-family: Arial,inherit;
+  color: black;
+}
+.boxmodel-2 a:hover{
+  color: pink ;
+  text-decoration: underline;
 }

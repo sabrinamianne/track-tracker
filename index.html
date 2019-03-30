@@ -11,11 +11,10 @@
     <div class="container">
       <div class="jumbotron" id="title">
         <h1>Which Track Should I Choose? </h1>
-        <h3>Before to suggest you a track, we need to know more about you.</h3>
+        <h3>Before proposing a track, we must know more about you. Please answer these questions to find out which track might be your best choice.</h3>
       </div>
       <div class="row">
         <div class="col-md-12">
-
           <form id="track">
             <label for="namequestion">What is your name?</label>
             <input id="namequestion" type="text"><br>
@@ -42,23 +41,47 @@
               <option value="webD">Web Developer</option>
               <option value="softwareD">Software Developer</option>
             </select><br>
-            <label for="question5"> Do you want to work for mobile environment or desktop environment? </label>
+            <label for="question5"> Do you want to work for mobile environment or desktop environment ? </label>
             <select id="question5">
               <option value="mob"> Mobile Environment</option>
               <option value="desktop">Desktop Environment</option>
             </select><br>
             <label for="datequestion"> When can you start the Bootcamp ? </label>
             <input id="datequestion" type="date"><br>
-            <label for="email"> If you need more information about our tracks, let us your email.</label>
+            <label for="email"> If you need more information about our tracks, let us your email ?</label>
             <input id="email" type="email"><br>
-
-            <button type="submit" class="btn btn-info"> Submit. </button>
+            <button type="submit" class="btn btn-info"> Submit </button>
           </form>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col-md-12">
           <div id="result">
-            <h1> <span id="user_name"></span> , considering your answers, you should choose this track : <br>
+            <h1> <span id="user_name"></span> , considering your answers, you should choose this track : <br><br>
             <span id="track_result"></span></h1>
           </div>
-
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col-md-12" id="links">
+          <h3> Please find below some links about the different programming languages that we offer in our tracks : </h3><br>
+          <ul>
+            <li><a href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro">CSS</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/User_interface_design">DESIGN</a></li>
+            <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+            <li><a href="https://rubyonrails.org/">RAILS</a></li>
+            <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/index">C#</a></li>
+            <li><a href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro">.NET</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="boxmodel-2">
+      <div class="container">
+        <div clas="row">
+          <div class="col-md-12">
+            <a href="#contact.html">Contact</a>
+          </div>
         </div>
       </div>
     </div>
