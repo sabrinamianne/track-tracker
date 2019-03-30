@@ -13,7 +13,7 @@ _Track Suggester Review at Epicodus _
 * _clone this repository_
 *_open the html file with a web browser_
 *_This project is using Github pages_
-*_Link of my project https://sabrinamianne.github.io/track_tracker/
+*_Link of my project https://sabrinamianne.github.io/track-tracker/
 
 
 
