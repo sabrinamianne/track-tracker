@@ -71,3 +71,8 @@
   color: pink ;
   text-decoration: underline;
 }
+
+#epicodus {
+  margin: 30px 50px;
+  height: 90px;
+}
