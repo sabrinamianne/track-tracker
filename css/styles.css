@@ -72,7 +72,6 @@
   text-decoration: underline;
 }
 
-#epicodus {
+a {
   margin: 20px 60px;
-  height: 65px;
 }
