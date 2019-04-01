@@ -71,3 +71,7 @@
   color: pink ;
   text-decoration: underline;
 }
+
+a {
+  margin: 40px;
+}
